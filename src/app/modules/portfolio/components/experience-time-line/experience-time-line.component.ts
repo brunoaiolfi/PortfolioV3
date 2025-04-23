@@ -20,7 +20,7 @@ export class ExperienceTimeLineComponent {
     {
       office: 'Desenvolvedor Front end & Mobile',
       company: 'AGPR5',
-      companyLink: 'https://www.AGPR5.com.br/',
+      companyLink: 'https://www.agpr5.com/',
       date: 'Janeiro 2022 - Fevereiro 2023',
       description: '',
       tools: 'React e React Native'
@@ -28,7 +28,7 @@ export class ExperienceTimeLineComponent {
     {
       office: '[Estagio] Desenvolvedor Front end & Mobile',
       company: 'AGPR5',
-      companyLink: 'https://www.AGPR5.com.br/',
+      companyLink: 'https://www.agpr5.com/',
       date: 'Novembro 2021 - Dezembro 2021',
       description: '',
       tools: 'React e React Native'
