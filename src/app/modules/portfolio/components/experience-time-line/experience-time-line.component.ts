@@ -14,7 +14,7 @@ export class ExperienceTimeLineComponent {
       company: 'Useall',
       companyLink: 'https://www.useall.com.br/',
       date: 'Fevereiro 2023 - Hoje',
-      description: 'Desenvolvedor de aplicativos Android nativo e híbridos, utilizando React Native, Maui e Kotlin.',
+      description: 'Desenvolvedor mobile na Useall, com foco em React Native e .NET MAUI. Especialista em refatoração de aplicações legadas, com ênfase em otimização de desempenho e melhoria contínua. Responsável pela definição de padrões de projeto, garantindo consistência, escalabilidade e boas práticas no desenvolvimento mobile.',
       tools: 'Android Studio, Kotlin, Java, React Native, Expo, .NET MAUI'
     },
     {
@@ -22,7 +22,7 @@ export class ExperienceTimeLineComponent {
       company: 'AGPR5',
       companyLink: 'https://www.agpr5.com/',
       date: 'Janeiro 2022 - Fevereiro 2023',
-      description: '',
+      description: 'Pioneiro no desenvolvimento mobile na AGPR5, atuando com React e React Native. Responsável por todo o ciclo de desenvolvimento, desde a criação de protótipos no Figma até a implementação do código e o deploy das aplicações. Conduzi a estruturação inicial da área mobile, definindo tecnologias, processos e boas práticas para o time.',
       tools: 'React e React Native'
     },
     {
