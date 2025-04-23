@@ -1,0 +1,16 @@
+<a [href]="project.demoLink" target="_blank" class="flex flex-col justify-center items-center gap-4  p-4 rounded-xl hover:scale-105 transition-all duration-300 hover:shadow-lg w-full">
+  <h4 class="font-mona font-bold text-lg text-center text-secondary max-[425px]:text-sm">
+    @if (project.name) {      
+      {{ project.name }}
+    }
+    @else {
+      Projeto sem nome
+    }
+  </h4>
+
+  <img
+    class="w-24"
+    [src]="project.thumbnail"
+    alt="Imagem da tela splash do projeto"
+  />
+</a>

@@ -1,0 +1,76 @@
+<ul>
+    
+    @for (experience of experiences; track $index) {
+  <li class="relative mt-10 first:mt-0 group">
+      
+      <div
+      class="w-2.5 h-2.5 bg-slate-300 group-first:bg-tertiary rounded-full absolute top-2 -left-6"
+      ></div>
+      <div class="absolute h-[100%] w-0.5 bg-slate-300 top-3 -left-5 -z-10 group-last:hidden"></div>
+
+    <div>
+      <h3 class="font-mona text-lg font-semibold text-secondary">
+        {{ experience.office}}
+      </h3>
+      <p class="font-mona text-md mb-4">
+        <a
+            class="hover:underline hover:text-tertiary"
+            [href]="experience.companyLink"
+            target="_blank"
+            rel="noopener"
+            title="Ir para https://www.criciuma.sc.gov.br/site/"
+        >
+          {{ experience.company }}
+        </a>
+        <span class="text-xs text-slate-400 ml-2">
+          {{ experience.date }}
+        </span>
+      </p>
+
+      <details
+        class="shadow-lg outline-1 outline outline-slate-200 rounded-lg group"
+      >
+        <summary
+          class="p-4 select-none rounded-lg list-none flex justify-between items-center border-none cursor-pointer"
+        >
+          <span
+            class="text-slate-400 group-hover:text-slate-500 transition-all duration-100"
+          >
+            Ler descrição do cargo
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-4 h-4 group-open:transform group-open:-rotate-180 transition-transform duration-300 ease-in-out"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </summary>
+
+        <div class="p-4 pt-0 transition">
+          <p class="text-md font-mona text-slate-600">
+            {{ experience.description }}
+          </p>
+
+          @if (experience.tools != '') {
+            <p class="mt-2">
+              <strong class="font-mona text-md">Tecnologias:</strong>
+              <span class="text-md font-mona text-slate-600">
+                {{ experience.tools }}
+              </span>
+            </p>
+          }
+        </div>
+      </details>
+    </div>
+  </li>
+
+  }
+</ul>

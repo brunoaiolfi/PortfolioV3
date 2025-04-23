@@ -1,0 +1,38 @@
+
+<!-- <app-splash-icons class="absolute w-full h-full -z-10" [splashIcons]="splashIcons"></app-splash-icons> -->
+
+<app-navbar></app-navbar>
+
+<main class="mt-14 p-4">
+    <app-header></app-header>
+
+
+    <section id="projetos" class="mt-16">
+        <h2 class="text-2xl font-bold font-mona text-center text-secondary max-[425px]:text-lg">
+            Projetos
+        </h2>
+        <p class="mt-2 text-center font-mona font-normal text-slate-400 text-lg max-[425px]:text-sm max-[425px]:mt-1">
+            Confira alguns do meus principais projetos.
+        </p>
+        
+        <div class="mt-8 flex flex-wrap justify-center items-center gap-8">
+            @for (project of projects; track $index) {
+                <app-card-project [project]="project"></app-card-project>
+            }            
+        </div>
+
+    </section>
+
+    <section id="experiencia" class="mt-16 mb-6">
+        <h2 class="text-2xl font-bold font-mona text-center text-secondary max-[425px]:text-lg">
+            Minha experiência
+        </h2>
+        <p class="mt-2 text-center font-mona font-normal text-slate-400 text-lg max-[425px]:text-sm max-[425px]:mt-1">
+            O caminho que fiz até aqui.
+        </p>
+        <div class="flex justify-center mt-8">
+            <app-experience-time-line class="max-w-[80vw] min-w-[80vw]"></app-experience-time-line>
+        </div>
+    </section>
+
+</main>

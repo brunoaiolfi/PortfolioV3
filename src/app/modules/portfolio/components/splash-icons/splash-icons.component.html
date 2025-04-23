@@ -1,0 +1,8 @@
+
+@if (splashIcons.length > 0) {
+    @for (splashIcon of splashIcons; track $index) {
+        <img [style.top.%]="this.getRandomPosition()" [style.left.%]="this.getRandomPosition()" class="w-24 blur-md -z-30" [src]="splashIcon.path" alt="Icon Tool">
+    }
+}
+ 
+ 
