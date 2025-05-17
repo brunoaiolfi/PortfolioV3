@@ -1,4 +1,5 @@
-<a [href]="project.demoLink" target="_blank" class="flex flex-col justify-center items-center gap-4  p-4 rounded-xl hover:scale-105 transition-all duration-300 hover:shadow-lg w-full">
+<a [href]="project.demoLink" target="_blank" 
+   class="flex flex-col justify-center items-center gap-4 p-4 rounded-xl hover:scale-105 transition-all duration-300 hover:shadow-lg w-full group">
   <h4 class="font-mona font-bold text-lg text-center text-secondary max-[425px]:text-sm">
     @if (project.name) {      
       {{ project.name }}
@@ -8,9 +9,12 @@
     }
   </h4>
 
-  <img
-    class="w-24"
-    [src]="project.thumbnail"
-    alt="Imagem da tela splash do projeto"
-  />
+  <img class="w-24" [src]="project.thumbnail" alt="Imagem da tela splash do projeto" />
+
+  <div class="relative w-[300px] h-[250px] overflow-hidden">
+    <p class="text-justify absolute inset-0 transition-all duration-300 md:group-hover:overflow-auto overflow-auto md:overflow-hidden">
+      {{ project.description }}
+    </p>
+    <div class="hidden md:block absolute bottom-0 left-0 right-0 h-80 bg-gradient-to-t from-white to-transparent pointer-events-none group-hover:opacity-0 transition-opacity duration-300"></div>
+  </div>
 </a>

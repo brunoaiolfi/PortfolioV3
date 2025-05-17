@@ -9,7 +9,6 @@ import { Component, Input, input } from '@angular/core';
 export class CardProjectComponent {
   
   @Input() public project:any;
-
-
+  showFullDescription = false;
 
 }
