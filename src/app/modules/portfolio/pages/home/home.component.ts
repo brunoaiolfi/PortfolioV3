@@ -19,10 +19,10 @@ export class HomeComponent {
 
   public projects = [
     {
-      name: 'Loja - Entregas',
-      thumbnail: '/assets/img/Entregas.png',
-      demoLink: 'https://play.google.com/store/apps/details?id=com.entrega_mobile&hl=pt_BR',
-      description: "Aplicativo voltado para motoristas de entrega, permitindo o controle de pedidos e consulta de rotas. Desenvolvido com abordagem offline-first, garantindo uso confiável mesmo sem conexão com a internet. Inicialmente escrito em React Native com Clean Architecture e posteriormente reescrito em MAUI para aprimoramento técnico e multiplataforma."
+      name: 'Loja - Vendas',
+      thumbnail: '/assets/img/Loja.png',
+      demoLink: 'https://play.google.com/store/apps/details?id=com.useall.applojavendas&hl=pt_BR',
+      description: "Aplicativo de vendas para balcão de loja, reescrito a partir de uma versão legada extremamente lenta. A nova implementação reduziu em até 90% o tempo de resposta, resultando em aumento significativo da base de usuários. Está em produção há 2 anos sem registros de bugs reportados ao suporte."
     },
     {
       name: 'E2 COD RT',
@@ -31,10 +31,10 @@ export class HomeComponent {
       description: "O E2 COD RT é um aplicativo desenvolvido para técnicos de uma cooperativa energética acompanharem e registrarem seus encaminhamentos em campo, mesmo sem conexão com a internet. Construído com Clean Architecture e abordagem Offline First, garante robustez, organização do código e continuidade operacional em ambientes remotos."
     },
     {
-      name: 'Loja - Vendas',
-      thumbnail: '/assets/img/Loja.png',
-      demoLink: 'https://play.google.com/store/apps/details?id=com.useall.applojavendas&hl=pt_BR',
-      description: "Aplicativo de vendas para balcão de loja, reescrito a partir de uma versão legada extremamente lenta. A nova implementação reduziu em até 90% o tempo de resposta, resultando em aumento significativo da base de usuários. Está em produção há 2 anos sem registros de bugs reportados ao suporte."
+      name: 'Loja - Entregas',
+      thumbnail: '/assets/img/Entregas.png',
+      demoLink: 'https://play.google.com/store/apps/details?id=com.entrega_mobile&hl=pt_BR',
+      description: "Aplicativo voltado para motoristas de entrega, permitindo o controle de pedidos e consulta de rotas. Desenvolvido com abordagem offline-first, garantindo uso confiável mesmo sem conexão com a internet. Inicialmente escrito em React Native com Clean Architecture e posteriormente reescrito em MAUI para aprimoramento técnico e multiplataforma."
     },
     {
       name: 'Useall Serviços',
