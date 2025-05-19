@@ -44,8 +44,8 @@ export class HomeComponent {
     },
     {
       name: 'Jardim Alerta',
-      thumbnail: '/assets/img/Useall.png',
-      demoLink: 'https://play.google.com/store/apps/details?id=br.com.useall.useappv4&hl=pt_BR',
+      thumbnail: '/assets/img/JardimAlerta.png',
+      demoLink: 'https://github.com/brunoaiolfi/Jardim-Alerta',
       description: "Aplicativo voltado para cuidados com plantas, permitindo que usuários recebam lembretes para regar suas espécies. Desenvolvido com Clean Architecture e abordagem totalmente offline, garantindo funcionamento sem depender de conexão com a internet. Criado com foco em prática e aprimoramento de habilidades em arquitetura limpa."
     },
   ];
